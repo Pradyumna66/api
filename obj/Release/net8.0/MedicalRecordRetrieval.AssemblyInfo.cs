@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedicalRecordRetrieval")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01dc43a1a469f09f4ae2aca252263a7831d4400d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedicalRecordRetrieval")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedicalRecordRetrieval")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,16 @@
 C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.exe
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\publish\web.config
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\web.config
 C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\appsettings.Development.json
 C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\appsettings.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\appsettings.Development.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\appsettings.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\MedicalRecordRetrieval.deps.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\MedicalRecordRetrieval.runtimeconfig.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\publish\appsettings.Development.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\publish\appsettings.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\publish\MedicalRecordRetrieval.deps.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\publish\publish\MedicalRecordRetrieval.runtimeconfig.json
 C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.dll
 C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.deps.json
 C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.runtimeconfig.json

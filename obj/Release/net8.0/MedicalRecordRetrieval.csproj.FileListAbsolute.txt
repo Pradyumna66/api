@@ -32,3 +32,14 @@ C:\Users\pictu\Humana\MedicalRecordRetrieval\obj\Release\net8.0\refint\MedicalRe
 C:\Users\pictu\Humana\MedicalRecordRetrieval\obj\Release\net8.0\MedicalRecordRetrieval.pdb
 C:\Users\pictu\Humana\MedicalRecordRetrieval\obj\Release\net8.0\MedicalRecordRetrieval.genruntimeconfig.cache
 C:\Users\pictu\Humana\MedicalRecordRetrieval\obj\Release\net8.0\ref\MedicalRecordRetrieval.dll
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\web.config
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\appsettings.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\MedicalRecordRetrieval.deps.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\MedicalRecordRetrieval.runtimeconfig.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\obj\Release\net8.0\MedicalRecordRetrieval.sourcelink.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\publish\web.config
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\publish\appsettings.Development.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\publish\appsettings.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\publish\MedicalRecordRetrieval.deps.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\bin\Release\net8.0\publish\publish\MedicalRecordRetrieval.runtimeconfig.json
