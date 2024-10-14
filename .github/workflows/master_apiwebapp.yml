@@ -25,15 +25,15 @@ jobs:
 
       # Step 3: Restore dependencies
       - name: Restore dependencies
-        run: dotnet restore ./api/api.csproj
+        run: dotnet restore ./api/MedicalRecordRetrieval.csproj
 
       # Step 4: Build the project
       - name: Build with dotnet
-        run: dotnet build ./api/api.csproj --configuration Release
+        run: dotnet build ./api/MedicalRecordRetrieval.csproj --configuration Release
 
       # Step 5: Publish the project
       - name: Publish project
-        run: dotnet publish ./api/api.csproj -c Release -o ${{github.workspace}}/myapp
+        run: dotnet publish ./api/MedicalRecordRetrieval.csproj -c Release -o ${{github.workspace}}/myapp
 
       # Step 6: Upload the published artifact
       - name: Upload artifact for deployment job
