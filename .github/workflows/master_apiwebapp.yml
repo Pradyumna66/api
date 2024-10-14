@@ -33,14 +33,14 @@ jobs:
 
       # Step 5: Publish the project
       - name: Publish project
-        run: dotnet publish ./MedicalRecordRetrieval.csproj -c Release -o ${{github.workspace}}/myapp
+        run: dotnet publish ./MedicalRecordRetrieval.csproj -c Release -o ${{github.workspace}}/publish
 
       # Step 6: Upload the published artifact
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{github.workspace}}/myapp
+          path: ${{github.workspace}}/publish
 
   deploy:
     runs-on: windows-latest
@@ -75,4 +75,4 @@ jobs:
         with:
           app-name: 'apiwebapp'
           slot-name: 'Production'
-          package: ${{github.workspace}}/myapp
+          package: ${{github.workspace}}/publish
