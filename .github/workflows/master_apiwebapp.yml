@@ -14,24 +14,33 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      # Step 1: Checkout the repository
       - uses: actions/checkout@v4
 
+      # Step 2: Setup .NET Core
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
 
+      # Step 3: Restore dependencies
+      - name: Restore dependencies
+        run: dotnet restore ./api/api.csproj
+
+      # Step 4: Build the project
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build ./api/api.csproj --configuration Release
 
-      - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      # Step 5: Publish the project
+      - name: Publish project
+        run: dotnet publish ./api/api.csproj -c Release -o ${{github.workspace}}/myapp
 
+      # Step 6: Upload the published artifact
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ${{github.workspace}}/myapp
 
   deploy:
     runs-on: windows-latest
@@ -40,26 +49,28 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write #This is required for requesting the JWT
+      id-token: write  # This is required for requesting the JWT
 
     steps:
+      # Step 7: Download the artifact from the build job
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-      
+
+      # Step 8: Login to Azure
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_5B8A76EFC825495E9215A97694344B6A }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_2A79266AC9854BB0B148374C2457D945 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_10C90C3CD3004A55979E8084EC1AB40A }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
 
+      # Step 9: Deploy to Azure Web App
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'apiwebapp'
           slot-name: 'Production'
-          package: .
-          
+          package: ${{github.workspace}}/myapp
