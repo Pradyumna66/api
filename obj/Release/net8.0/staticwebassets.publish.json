@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5YYJKZ9NYpTRx11bvLgpS/uPTEK78QTT1yAxkiwv5fg=",
+  "Source": "MedicalRecordRetrieval",
+  "BasePath": "_content/MedicalRecordRetrieval",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

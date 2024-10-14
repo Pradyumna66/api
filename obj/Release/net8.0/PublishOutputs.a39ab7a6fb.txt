@@ -1,0 +1,13 @@
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.exe
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\appsettings.Development.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\appsettings.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.dll
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.deps.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.runtimeconfig.json
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\MedicalRecordRetrieval.pdb
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\Microsoft.OpenApi.dll
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\Newtonsoft.Json.dll
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pictu\Humana\MedicalRecordRetrieval\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
