@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 public class FhirService
 {
     private readonly HttpClient _httpClient;
-    private readonly string _baseUrl;
+    private readonly string? _baseUrl;
 
     public FhirService(IConfiguration config)
     {
